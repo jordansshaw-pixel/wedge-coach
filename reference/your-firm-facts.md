@@ -8,6 +8,7 @@
 ## Firm: True North ITG
 
 ### Positioning (one line)
+
 Healthcare IT MSP and EHR hosting provider with deep specialization in **orthopedic surgical groups in the 50–500 seat range**.
 
 ---
@@ -17,14 +18,17 @@ Healthcare IT MSP and EHR hosting provider with deep specialization in **orthope
 The diagnoses in `rules.md` instruct Wedge Coach to surface **MISSING SPECIFICS** from the list below when the user's pitch was generic. Treat each item as a real, available proof point — not aspirational.
 
 #### Vertical depth
+
+- **60+ orthopedic groups served to date** — this is the headline vertical-depth specific; surface it whenever a pitch references "healthcare experience"
 - Long-term operating experience inside orthopedic surgical IT environments
 - Vertical-specific support standard operating procedures (SOPs) built for orthopedic clinical workflows — not adapted from generic healthcare templates
 - Deep working knowledge of clinical-data structures inside the major orthopedic EHR/PM systems (technicians who can troubleshoot inside the data model, not just at the application surface)
 - Internal claim style: *"We know your EHR better than your vendor's L1 support does."* This claim is credible when backed by specific named systems and example incidents — name them when using this in pitches.
 
-> **TODO for the user:** Fill in the *exact numbers* — # of orthopedic groups served, # of EHR instances hosted, # of years specifically in ortho. Wedge Coach will surface these as Missing Specifics during diagnoses.
+> **Still to capture:** # of EHR instances hosted, # of years specifically in ortho, named EHR/PM systems where the L1-knowledge claim is most defensible. Add as you confirm them.
 
 #### Compliance posture
+
 - Specialists on staff who guide CEOs and COOs through HIPAA and SOC 2 audits
 - Operational stance: *we don't sell compliance, we shepherd you through it*
 - Track record of closing OCR findings letters within defined windows for client groups
@@ -32,20 +36,27 @@ The diagnoses in `rules.md` instruct Wedge Coach to surface **MISSING SPECIFICS*
 > **TODO for the user:** Add specific examples of audit shepherding — # of HIPAA audits supported, average findings-closure time, # of SOC 2 Type 2 attestations achieved with clients.
 
 #### Security
+
 - Proprietary AI SIEM platform also deployed at top-tier hospitals and government agencies
 - Documented client-side reductions in cyber insurance premiums attributable to controls evidence produced by the platform
 - Internal claim style: *"Proven, not fluff."* Credibility requires the receipts — named carriers, named premium-reduction percentages, named comparison periods.
 
-> **TODO for the user:** Add the AI SIEM platform's product name (if it's a named brand the buyer can verify), 1–2 specific client examples (anonymized is fine — "a 240-seat orthopedic group"), and the verifiable premium-reduction metrics.
+**Receipts** (use these by name in pitches when persona context fits):
+
+- **Insurance retention save — 26-clinic orthopedic group.** The group's cyber carrier was preparing to non-renew the policy. True North's controls evidence and audit posture reversed the carrier's decision and the group kept coverage. This is the receipt to pull on Burned-Before COOs, Skeptical CFOs, and any persona whose recent context includes a premium increase or carrier conversation. Translation for the buyer: *"We don't just reduce premiums — we've kept carriers from walking. A 26-clinic group is on coverage today because of evidence we produced for their carrier."*
+
+- **Ransomware containment on an adjacent unmanaged network.** Ransomware was deployed on a network connected to one of our orthopedic clients — a network True North did not manage. The threat reached the perimeter of our client's environment and could not pivot into the infrastructure we did manage. This is the **operational proof point for the isolated per-customer infrastructure claim** (the "air gap" wedge). Use it any time a pitch references air-gapped or isolated infrastructure: *"This isn't theoretical — when ransomware was deployed on a network adjacent to one of our clients, it could not pivot into the environment we manage. That's what isolation actually means in practice."*
+
+> **Still to capture:** AI SIEM platform's product name (if it's a named brand the buyer can verify); the named carrier (or anonymized as "a top-5 cyber carrier") for the 26-clinic save; the year/quarter of the ransomware event for time-bound credibility. Add as you confirm them.
 
 #### Founder credibility
+
 - Firm CEO holds **CISSP-ISSAP** (Information Systems Security Architecture Professional) certification — a security-architecture credential, not a sales credential
 - Lead-from-the-front model: CEO personally reviews every orthopedic client's environment before onboarding
 - Distinguishing claim style: *"Our CEO is a security architect, not an MSP owner who hires security people."*
 
-> **TODO for the user:** **VERIFY THE EXACT CREDENTIAL NAME.** The user's brief said "CISP Architecture Certified." There is no widely recognized cert by that exact name; CISSP-ISSAP is the closest match (CISSP with the Architecture concentration) and is what's been written here. If the actual credential is different (e.g., CCSP, CISM, GIAC GDSA, SABSA, TOGAF, or a vendor-specific architecture cert), correct this single line and Wedge Coach will use the correct one.
-
 #### Service stack
+
 - 3-tiered asset management model with **one source of truth** — combining physical, logical, and configuration assets into a single, audit-ready inventory
 - Operational outcome: audit prep takes hours, not weeks
 - Distinguishing claim style: *"Three tiers of assets, one report. When OCR or SOC 2 auditors ask, you don't open spreadsheets."*
@@ -53,6 +64,7 @@ The diagnoses in `rules.md` instruct Wedge Coach to surface **MISSING SPECIFICS*
 > **TODO for the user:** Briefly describe what the three tiers are (e.g., Tier 1 = physical/devices, Tier 2 = logical/identity/software, Tier 3 = configuration/policy) and the name of the single source of truth (CMDB platform, custom system, etc.) if it's a named tool the buyer can verify.
 
 #### Infrastructure
+
 - Owned/operated data centers (not pure cloud reseller)
 - Documented **99.999% ("five nines") uptime**
 - Distinguishing claim style: *"Five nines is measured, not aspirational. We can show the report."*
