@@ -1,0 +1,17 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Office temp files
+~$*
+
+# Local notes (not for the repo)
+NOTES.md
+scratch/
